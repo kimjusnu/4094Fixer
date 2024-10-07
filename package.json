@@ -1,6 +1,6 @@
 {
   "name": "4094fixer",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Automatically detects and fixes the 4094 error in Next.js by clearing cache, reinstalling dependencies, and restarting the development server.",
   "main": "index.js",
   "bin": {
@@ -11,8 +11,7 @@
     "clear4094": "node scripts/clear4094.js"
   },
   "files": [
-    "scripts",
-    "clear4094.js"
+    "scripts/clear4094.js"
   ],
   "keywords": [
     "nextjs",
@@ -29,5 +28,9 @@
     "nextjs development"
   ],
   "author": "kimjusnu",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "next": "^14.2.14",
+    "yarn": "^1.22.22"
+  }
 }

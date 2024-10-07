@@ -1,9 +1,0 @@
-# node_modules 디렉토리 무시
-node_modules/
-
-# .next 디렉토리 무시 (빌드 결과물)
-.next/
-
-# 잠금 파일 무시
-yarn.lock
-package-lock.json

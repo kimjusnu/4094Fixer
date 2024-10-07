@@ -1,23 +1,23 @@
-# 4094Fixer
+# 4094Fixer 🚀
 
 **Resolve Next.js 4094 errors with automatic cache clearing and package reinstalling.**
 
-## Overview
+## Overview ✨
 
-`4094Fixer` is a simple tool designed to automatically resolve the infamous 4094 error that may occur in Next.js projects. This script clears cached files and reinstalls necessary packages, restarting your development server in the process.
+`4094Fixer` is a simple yet powerful tool designed to automatically tackle the dreaded 4094 error that can sometimes pop up in Next.js projects. Instead of manually clearing caches and reinstalling packages every time, let `4094Fixer` handle all the grunt work while you focus on building amazing things. 💡
 
-### Features
+### Features 🛠️
 
-- **Automatic 4094 Error Detection**: Detects when a 4094 error occurs in your Next.js project.
-- **Cache Clearing**: Deletes the `.next` build cache, `node_modules`, and `yarn.lock` (or `package-lock.json` for npm users).
-- **Package Reinstallation**: Reinstalls project dependencies using `yarn` or `npm` and restarts the development server.
-- **Cross-Platform**: Supports both `yarn` and `npm` for package management.
+- **Automatic 4094 Error Detection**: Instantly catches the pesky 4094 error as soon as it occurs.
+- **Cache Cleanup**: Wipes out the `.next` build cache, `node_modules`, and `yarn.lock` (or `package-lock.json` for npm users).
+- **Quick Reinstall**: Automatically reinstalls all the dependencies and restarts your development server, so you don’t have to!
+- **Works with Both Yarn and NPM**: Doesn’t matter what package manager you’re using – we’ve got you covered. 😉
 
 ---
 
-## Installation
+## Installation 📦
 
-1. Clone the repository:
+1. **Clone the repository:**
 
    ```bash
    git clone https://github.com/yourusername/4094Fixer.git
@@ -40,7 +40,7 @@
 
 ---
 
-## Usage
+## Usage🖥️
 
 1. **Run the Fixer**:
 
@@ -56,17 +56,29 @@
    npm run clear4094
    ```
 
-   This command will automatically detect the 4094 error, clear your project cache, and reinstall dependencies.
+   This magical command will detect the 4094 error, clear all the necessary caches, reinstall the packages, and restart your server. Easy peasy, lemon squeezy! 🍋
 
 ---
 
-## How It Works
+## How It Works 🔧
 
-- When a 4094 error occurs, `4094Fixer` detects the error and deletes the following files:
-  - `.next/` directory (Next.js build cache)
-  - `node_modules/` directory (installed dependencies)
-  - `yarn.lock` or `package-lock.json` (lock file)
-- After that, it automatically reinstalls the dependencies (`yarn install` or `npm install`) and restarts the Next.js development server (`yarn dev` or `npm run dev`).
+Here’s what happens under the hood when `4094Fixer` works its magic:
+
+### Cache Cleanup 🧹
+
+Deletes the following directories and files:
+
+- `.next/` directory (Next.js build cache)
+- `node_modules/` directory (installed dependencies)
+- `yarn.lock` or `package-lock.json` (depending on your package manager)
+
+### Package Reinstallation 📦
+
+Once the cleanup is complete, it reinstalls the necessary packages using `yarn install` or `npm install`.
+
+### Server Restart 🚀
+
+After everything is back in place, it automatically restarts the Next.js development server (`yarn dev` or `npm run dev`).
 
 ---
 
@@ -75,16 +87,4 @@
 1. You're working on a Next.js project and suddenly encounter the 4094 error.
 2. Run the `clear4094` command (using `yarn` or `npm`).
 3. The cache is cleared, dependencies are reinstalled, and the server is restarted automatically.
-4. Continue developing without having to manually fix the 4094 error!
-
----
-
-## Contribution
-
-If you'd like to contribute, feel free to fork this repository and make a pull request. Issues and suggestions are welcome.
-
----
-
-## License
-
-This project is licensed under the ISC License. See the [LICENSE](LICENSE) file for details.
+4. Continue developing without having to manually fix the 4094 error!😊

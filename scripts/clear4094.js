@@ -1,7 +1,7 @@
 const { exec } = require("child_process");
 
 const clearCacheAndReinstall = () => {
-  console.log("Clearing cache and reinstalling...");
+  console.log("Cache clearing started...");
 
   // .next, yarn.lock, node_modules 삭제
   exec("rm -rf .next yarn.lock node_modules", err => {
@@ -9,7 +9,7 @@ const clearCacheAndReinstall = () => {
       console.error("Error while deleting files:", err);
       return;
     }
-    console.log("Deleted cache files. Reinstalling dependencies...");
+    console.log("Cache files deleted. Reinstalling dependencies...");
 
     // yarn install 실행
     exec("yarn install", err => {

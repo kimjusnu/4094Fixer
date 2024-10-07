@@ -1,11 +1,29 @@
 {
-  "dependencies": {
-    "next": "^14.2.14",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+  "name": "4094fixer",
+  "version": "1.0.1",
+  "description": "Automatically detects and fixes the 4094 error in Next.js by clearing cache, reinstalling dependencies, and restarting the development server.",
+  "main": "index.js",
+  "bin": {
+    "clear4094": "./scripts/clear4094.js"
   },
   "scripts": {
     "dev": "next dev",
     "clear4094": "node scripts/clear4094.js"
-  }
+  },
+  "keywords": [
+    "nextjs",
+    "error-fix",
+    "4094",
+    "clear-cache",
+    "node_modules",
+    "nextjs 4094 error",
+    "nextjs error fix",
+    "next.js troubleshooting",
+    "cache clearing",
+    "nextjs restart",
+    "nextjs dependency reinstall",
+    "nextjs development"
+  ],
+  "author": "kimjusnu",
+  "license": "ISC"
 }

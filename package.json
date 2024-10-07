@@ -10,6 +10,10 @@
     "dev": "next dev",
     "clear4094": "node scripts/clear4094.js"
   },
+  "files": [
+    "scripts",
+    "clear4094.js"
+  ],
   "keywords": [
     "nextjs",
     "error-fix",

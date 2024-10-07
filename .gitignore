@@ -1,5 +1,0 @@
-# Ignore node_modules and .next directories
-node_modules/
-.next/
-yarn.lock
-package-lock.json

@@ -4,7 +4,7 @@
 
 ## Example Workflow 🎥
 
-[![Watch the clear4094.mp4 video](./path-to-thumbnail-image.png)](https://youtu.be/your_video_id)
+<img src="![clear4094](https://github.com/user-attachments/assets/cc165859-3a21-465b-9543-9c47e07e0a70)">
 
 1. You're working on a Next.js project and suddenly encounter the 4094 error.
 2. Run the `clear4094` command (using `yarn` or `npm`).

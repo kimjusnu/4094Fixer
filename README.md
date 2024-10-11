@@ -2,6 +2,15 @@
 
 **Resolve Next.js 4094 errors with automatic cache clearing and package reinstalling.**
 
+## Example Workflow 🎥
+
+[Watch the clear4094.mp4 video](./clear4094.mp4)
+
+1. You're working on a Next.js project and suddenly encounter the 4094 error.
+2. Run the `clear4094` command (using `yarn` or `npm`).
+3. The cache is cleared, dependencies are reinstalled, and the server is restarted automatically.
+4. Continue developing without having to manually fix the 4094 error! 😊
+
 ## Overview ✨
 
 `4094Fixer` is a simple yet powerful tool designed to automatically tackle the dreaded 4094 error that can sometimes pop up in Next.js projects. Instead of manually clearing caches and reinstalling packages every time, let `4094Fixer` handle all the grunt work while you focus on building amazing things. 💡
